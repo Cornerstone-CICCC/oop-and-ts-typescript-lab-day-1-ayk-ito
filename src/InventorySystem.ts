@@ -11,7 +11,7 @@ type InventoryItem = {
 
 }
 
-const inventory: InventoryItem[] = [];
+let inventory: InventoryItem[] = [];
 
 function addItem(itemId, itemName, quantity, isAvailable) {
 
