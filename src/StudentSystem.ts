@@ -12,7 +12,7 @@ type Student = {
 
 }
 
-const students: Student[] = [];
+let students: Student[] = [];
 
 function addStudent(studentId, name, age, subjects, status) {
 
