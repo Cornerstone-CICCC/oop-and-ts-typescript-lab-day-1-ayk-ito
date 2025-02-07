@@ -17,7 +17,7 @@ type Movie = {
 
 }
 
-const movies: Movie[] = [];
+let movies: Movie[] = [];
 
 function addMovie(movieId, title, genre, availableSeats) {
 
