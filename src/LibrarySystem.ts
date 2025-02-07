@@ -16,7 +16,7 @@ type Book = {
 
 }
 
-const library: Book[] = [];
+let library: Book[] = [];
 
 function addBook(bookId, title, author, genre) {
 
