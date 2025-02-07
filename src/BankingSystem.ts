@@ -26,7 +26,7 @@ type BankAccount = {
   transactions: Transaction[]
 }
 
-const accounts: BankAccount[] = [];
+let accounts: BankAccount[] = [];
 
 function createAccount(accountNo, firstname, lastname, initialDeposit, isActive = true) {
 
